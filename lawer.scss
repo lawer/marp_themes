@@ -1,10 +1,10 @@
 @use 'sass:color';
 
 /*!
- * Marp / Marpit Gaia theme.
+ * Marp / Marpit Lawer theme.
  *
  * @theme lawer
- * @author LAwer
+ * @author Lawer
  *
  * @auto-scaling true
  * @size 16:9 1280px 720px
@@ -17,7 +17,7 @@ $color-primary: #0288d1;
 $color-secondary: #81d4fa;
 
 @import 'https://fonts.bunny.net/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap';
-@import '~highlight.js/styles/sunburst';
+@import 'https://unpkg.com/highlightjs@9.16.2/styles/sunburst.css';
 
 @mixin color-scheme($bg, $text, $highlight) {
   --color-background: #{$bg};
